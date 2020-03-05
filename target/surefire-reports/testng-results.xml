@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="15114" started-at="2020-01-07T23:28:40Z" finished-at="2020-01-07T23:28:55Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="15114" started-at="2020-01-07T23:28:40Z" finished-at="2020-01-07T23:28:55Z">
+      <class name="B2BAutomation.CAPEXTest">
+        <test-method status="PASS" signature="setExtent()[pri:0, instance:B2BAutomation.CAPEXTest@64c87930]" name="setExtent" is-config="true" duration-ms="186" started-at="2020-01-07T17:28:39Z" finished-at="2020-01-07T17:28:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method status="PASS" signature="POST_createsession(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:B2BAutomation.CAPEXTest@64c87930]" name="POST_createsession" duration-ms="3951" started-at="2020-01-07T17:28:40Z" data-provider="getDataFromExcelFile" finished-at="2020-01-07T17:28:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://api.swychover.io/sandbox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[56a28836-6743-4249-b22b-5e1a224b1693]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[77ad354426ab4a39a16923417829661b]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[application/x-www-form-urlencoded]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[client_credentials]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Y[52y.pyQXc+BLfhwy/2jkcqYXq00w5L]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[3a8271ef-ef89-445c-bca2-a0a66d1afc52]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- POST_createsession -->
+        <test-method status="PASS" signature="get_balance(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:B2BAutomation.CAPEXTest@64c87930]" name="get_balance" duration-ms="1043" started-at="2020-01-07T17:28:44Z" data-provider="getDataFromExcelFile" finished-at="2020-01-07T17:28:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://api.swychover.io/sandbox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[swych_b2b_capex]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9185384047158163]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[d2ae25t7197f11e793ae9r2e63269v5t]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[partha@goswych.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_balance -->
+        <test-method status="PASS" signature="get_catalog(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:B2BAutomation.CAPEXTest@64c87930]" name="get_catalog" duration-ms="1070" started-at="2020-01-07T17:28:45Z" data-provider="getDataFromExcelFile" finished-at="2020-01-07T17:28:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://api.swychover.io/sandbox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[swych_b2b_capex]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9185384047158163]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[d2ae25t7197f11e793ae9r2e63269v5t]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[partha@goswych.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_catalog -->
+        <test-method status="PASS" signature="put_createorder(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:B2BAutomation.CAPEXTest@64c87930]" name="put_createorder" duration-ms="1526" started-at="2020-01-07T17:28:46Z" data-provider="getDataFromExcelFile" finished-at="2020-01-07T17:28:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[swych_b2b_capex]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[d2ae25t7197f11e793ae9r2e63269v5t]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[partha@goswych.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9185384047158163]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[7-0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Partha]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Pattanaik]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[partha@goswych.com]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[4156969775]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[partha@goswych.com]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[14156969775]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[True]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- put_createorder -->
+        <test-method status="PASS" signature="post_confirmorder(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:B2BAutomation.CAPEXTest@64c87930]" name="post_confirmorder" duration-ms="4788" started-at="2020-01-07T17:28:48Z" data-provider="getDataFromExcelFile" finished-at="2020-01-07T17:28:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://api.swychover.io/sandbox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[swych_b2b_capex]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9185384047158163]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[d2ae25t7197f11e793ae9r2e63269v5t]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[partha@goswych.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post_confirmorder -->
+        <test-method status="PASS" signature="get_order_details(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:B2BAutomation.CAPEXTest@64c87930]" name="get_order_details" duration-ms="1189" started-at="2020-01-07T17:28:53Z" data-provider="getDataFromExcelFile" finished-at="2020-01-07T17:28:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://api.swychover.io/sandbox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[swych_b2b_capex]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9185384047158163]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[d2ae25t7197f11e793ae9r2e63269v5t]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[partha@goswych.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_order_details -->
+        <test-method status="PASS" signature="post_suggestedrate(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:B2BAutomation.CAPEXTest@64c87930]" name="post_suggestedrate" duration-ms="929" started-at="2020-01-07T17:28:54Z" data-provider="getDataFromExcelFile" finished-at="2020-01-07T17:28:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://api.swychover.io/sandbox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[swych_b2b_capex]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[d2ae25t7197f11e793ae9r2e63269v5t]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[partha@goswych.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[9185384047158163]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[INR]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[USD]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post_suggestedrate -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:B2BAutomation.CAPEXTest@64c87930]" name="endReport" is-config="true" duration-ms="6" started-at="2020-01-07T17:28:55Z" finished-at="2020-01-07T17:28:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- B2BAutomation.CAPEXTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
